@@ -1,7 +1,10 @@
 import styles from './relibr.module.css';
 
-/* eslint-disable-next-line */
-export interface RelibrProps {}
+export interface RelibrProps {
+  name: string;
+  age: number;
+  isItTrue: boolean;
+}
 
 export function Relibr(props: RelibrProps) {
   return (

@@ -1,7 +1,9 @@
 import styles from './example.module.css';
-
-/* eslint-disable-next-line */
-export interface ExampleProps {}
+export interface ExampleProps {
+  name: string;
+  age: number;
+  isItTrue: boolean;
+}
 
 export function Example(props: ExampleProps) {
   return (
