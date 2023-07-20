@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@sbit/nglib": ["libs/nglib/src/index.ts"],
       "@sbit/relibr": ["libs/relibr/src/index.ts"],
       "@sbit/relibv": ["libs/relibv/src/index.ts"]
     }
