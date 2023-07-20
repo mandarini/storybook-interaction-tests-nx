@@ -6,6 +6,9 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "@nx/angular": "17.0.0-katerina.0",
+    "@nx/next": "17.0.0-katerina.0",
+    "@nx/react": "17.0.0-katerina.0",
     "@nx/workspace": "17.0.0-katerina.0",
     "nx": "17.0.0-katerina.0",
     "nx-cloud": "latest"
